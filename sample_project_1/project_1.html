@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quest</title>
+    <link rel="stylesheet" href="sample.css">
+    <style>
+        *{
+            margin: 0;
+        }
+        .body{
+            display: flex;
+        }
+     
+        .head{
+            
+            display: grid;
+            grid-template-columns: 50% 6% 6% 6% 6% 6% 20%;
+            background-color: whitesmoke;
+            height: 40px;
+            text-align: center;
+            padding-top: 10px;
+            gap: 10px;
+
+        }
+        .bo{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 40% 10% 10% 40% ;
+            grid-template-rows: 40% 20% 20% 20%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .skill{
+            color: aqua;
+            font-size: 50px;
+            grid-column:span 3;
+            
+            
+        }
+        .white{
+            background-color: red;
+        }
+        .img,img{
+            border-radius: px;
+
+        }
+        .im {
+            height: 450px;
+            grid-row: span 3;
+            width: 300px;
+        
+
+        }
+        .pa{
+            grid-column: span 3;
+            
+        }
+        
+            
+        .buton >button{
+            background-color: blue;
+            padding: 10px;
+            color: whitesmoke;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="head">
+        <div class="q"><p>QUEST</p></div>  
+        <div class="h"><p>home</p></div>
+        <div class="a"><p>About</p></div>
+        <div class="c"><p>course</p></div>
+        <div class="p"><p>pages</p></div>
+        <div class="b"><p>blog</p></div>   
+    </div>
+    <div class="bo">
+        <div class="skill">Grow your skills, <br>
+        define your future</div>
+        <div class="im"><img src="./pro.jpeg" alt=""></div>
+        
+        <div class="pa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod reiciendis ratione sapiente voluptatum reprehenderit expedita fugit, minus exercitationem. Accusamus ad qui cum dolor, cupiditate voluptatum architecto mollitia debitis. Perspiciatis, veritatis?</div>
+        <div class="buton" style="grid-column: span 2;"> <button>explore courses</button> </div>
+
+    </div>
+
+    
+</body>
+</html>
